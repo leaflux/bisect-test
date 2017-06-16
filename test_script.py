@@ -12,5 +12,5 @@ class TestMoreErrors:
         def f():
             return 44
         def g():
-            return 44
-        somefunc(f(), g())
+            return 45
+        assert somefunc(f(), g()) == True

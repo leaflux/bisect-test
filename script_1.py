@@ -6,4 +6,4 @@ def otherfunc(a, b):
     return b == c
 
 def somefunc(x, y):
-    otherfunc(x, y)
+    return otherfunc(x, y)
