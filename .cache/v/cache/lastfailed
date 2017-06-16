@@ -1,1 +1,3 @@
-{}
+{
+  "test_script.py::TestErrors::()::test_otherfunc": true
+}
