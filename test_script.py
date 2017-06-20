@@ -7,7 +7,7 @@ class TestErrors:
         assert inc(1) == 2
 
     def test_otherfunc(self):
-        assert otherfunc(0, 1) == True
+        assert otherfunc(0, 0) == True
 
 class TestMoreErrors:
     def test_complex_error(self):
@@ -16,5 +16,3 @@ class TestMoreErrors:
         def g():
             return 45
         assert somefunc(f(), g()) == True
-
-print "why won't I commit"
