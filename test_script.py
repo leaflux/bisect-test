@@ -16,3 +16,5 @@ class TestMoreErrors:
         def g():
             return 45
         assert somefunc(f(), g()) == True
+
+print "commit me"
