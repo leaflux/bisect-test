@@ -1,3 +1,5 @@
+# need to keep script_1 and test_script separate to test .gitignore
+# in a realistic way
 from script_1 import *
 
 class TestErrors:
