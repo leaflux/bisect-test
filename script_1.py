@@ -2,7 +2,7 @@ def inc(x):
     return x + 1
 
 def otherfunc(a, b):
-    c = inc(inc(a))
+    c = inc(a)
     return b == c
 
 def somefunc(x, y):
